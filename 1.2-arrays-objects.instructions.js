@@ -14,10 +14,5 @@ movies.name = "Boyz N the Hood";
 movies.releaseYear = 1991;
 movies.genre = ["Crime", "Drama"];
 movies.characters = ["Tre Styles", "Doughboy"];
-movies.ratings = {
-  IMDb: "7.8 / 10",
-  Metacritic: "76%"
-
-};
 
 console.log(movies);
