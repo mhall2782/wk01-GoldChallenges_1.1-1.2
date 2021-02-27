@@ -8,3 +8,24 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+for (number of numbers) {
+    console.log(number,'number');
+}
+
+//for (number of numbers);
+// if(numbers.includes(even)) {
+//     console.log(`${number} number is an even number`)
+// } else {
+//     console.log(`${number} number is an odd number`)
+// }
+
+for (n of numbers) {
+    if(n.includes('2') || n.includes('4') || n.includes('4') || n.includes('6') || n.includes('8')) {
+        console.loig(`${n} number is an even number`)
+    } else {
+        console.log(`${n} number is an odd number`)
+    }
+}
