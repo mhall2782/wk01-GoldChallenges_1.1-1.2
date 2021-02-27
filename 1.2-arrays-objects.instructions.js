@@ -11,8 +11,22 @@ let movies = new Object();
 console.log(movies)
 
 movies.name = "Boyz N the Hood";
+movies.runTime = '1 hour, 52 minutes'
 movies.releaseYear = 1991;
 movies.genre = ["Crime", "Drama"];
-movies.characters = ["Tre Styles", "Doughboy"];
+movies.characters = ["Tre Styles", "Doughboy"]
 
 console.log(movies);
+
+let characters = ["Trey Styles", "Doughboy"];
+    console.log(characters.sort());
+
+
+//console.log(Tre Styles) 
+//console.log(18)    
+//console.log(School)
+
+//console.log(Doughboy)
+//console.log(20)
+//console.log(Streets)
+
