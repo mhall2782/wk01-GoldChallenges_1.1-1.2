@@ -21,12 +21,24 @@ console.log(movies);
 let characters = ["Trey Styles", "Doughboy"];
     console.log(characters.sort());
 
+let var1 = {
+    firstName: 'Trey',
+    lastName: 'Styles',
+    age: 18,
+    friend: {
+        firstName: 'Ricky'
+    }
+};
 
-//console.log(Tre Styles) 
-//console.log(18)    
-//console.log(School)
+let var2 = {
+    firsName: 'Doughboy',
+    age: 20
+    }
+};
 
-//console.log(Doughboy)
-//console.log(20)
-//console.log(Streets)
+console.log(var1.firsName);
+console.log(var1.lastName);
+//console.log(var.age);
+console.log(var1.friend);
 
+console.log(var2.firstName);
