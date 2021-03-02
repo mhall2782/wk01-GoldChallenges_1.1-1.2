@@ -15,15 +15,10 @@ for (number of numbers) {
     console.log(number);
 }
 
-//for (number of numbers);
-// if(numbers.includes(even)) {
-//     console.log(`${number} number is an even number`)
-// } else {
-//     console.log(`${number} number is an odd number`)
-// }
+
 
 for (n of numbers) {
-    if(n.includes('0') || n.includes ('2') || n.includes('4') || n.includes('6') || n.includes('8') || n.includes(10)) {
+    if(n.includes('0') || n.includes ('2') || n.includes('4') || n.includes('6') || n.includes('8') || n.includes('10')) {
         console.log(`${n} number is an even number`)
     } else {
         console.log(`${n} number is an odd number`)
